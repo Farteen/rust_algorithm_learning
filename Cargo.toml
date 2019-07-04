@@ -1,0 +1,12 @@
+[package]
+name = "algorithm"
+version = "0.1.0"
+authors = ["Xu Jiawei <jiawei.xu@centrixlink.com>"]
+edition = "2018"
+
+[dependencies]
+
+
+[[test]]
+name="test"
+path="test/mod.rs"
