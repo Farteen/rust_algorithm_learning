@@ -2,6 +2,7 @@ use std::rc::Rc;
 use std::rc::Weak;
 use std::cell::RefCell;
 
+#[derive(Debug)]
 struct Node {
     value: i32,
     parent: RefCell<Weak<Node>>,
