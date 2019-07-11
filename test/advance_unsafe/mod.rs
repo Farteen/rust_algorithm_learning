@@ -1,2 +1,5 @@
 mod test_unsafe_raw_pointer;
 mod test_unsafe_method_call;
+mod test_unsafe_abstract;
+mod test_extern_method_call;
+mod test_access_modify_global_variable;
